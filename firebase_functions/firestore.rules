@@ -1,0 +1,48 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+        allow read, write, create: if request.auth.uid == uid;
+        allow read: if request.auth != null;
+        //allow read: if request.auth.uid != null;
+        match /{document=**} {
+        	allow read, write, create, delete: if request.auth.uid == uid;
+        }
+    }
+    
+    match /chats/{chatId} {
+    allow create: if request.auth.uid != null && !exists(/databases/$(database)/documents/chats/$(documentId));
+    allow read, write: if request.auth.uid in resource.data.enabledUsers;
+    	match /{document=**} {
+    		allow read, write, create, delete: if request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.enabledUsers
+        //if get(/databases/$(database)/documents/users/$(request.auth.uid))
+    	}
+    }
+
+    
+    match /reports/{docId} {
+        allow write, create: if request.auth.uid != null;
+    }
+    match /video_approval_requests/{docId} {
+        allow write, create: if request.auth.uid != null;
+    }
+    
+    match /settings {
+        allow read;
+        
+        match /links {
+        	allow read;
+        }
+        match /behavior {
+        	allow read;
+        }
+        match /reward {
+        	allow read;
+        }
+    }
+    
+    match /tags/{tagType}/locales/{localeCode}{
+        allow read;
+    }
+  }
+}

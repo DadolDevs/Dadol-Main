@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551594745491",
+    "project_id": "dazzle---dev",
+    "storage_bucket": "dazzle---dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551594745491:android:b747e978c88fbcc899b766",
+        "android_client_info": {
+          "package_name": "it.dadol.dadolapp.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551594745491-rlmcnk31tmufk6uelqqq2r41538l5msc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb0qUsLA2kMmcIs0Numnir1hjqieoeJQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551594745491-rlmcnk31tmufk6uelqqq2r41538l5msc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "107559256703",
+    "firebase_url": "https://feeling-c141d.firebaseio.com",
+    "project_id": "feeling-c141d",
+    "storage_bucket": "feeling-c141d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107559256703:android:dd087e2fca1a7e54c0754a",
+        "android_client_info": {
+          "package_name": "com.feeling.feelingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107559256703-9lco407ona3lmm74jil4bslulrjro868.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.feeling.feelingapp",
+            "certificate_hash": "ba7d48ef6fdd8718caf8e74218e8a1b15b558014"
+          }
+        },
+        {
+          "client_id": "107559256703-e499i0s6drloecokri41h1e9saofs8ja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.feeling.feelingapp",
+            "certificate_hash": "72ecc688f89b08f487b8717bb37add0d55d39d90"
+          }
+        },
+        {
+          "client_id": "107559256703-mgmcfqsasdkt3fne013540q6bqhhscai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4plAi-eamTmLtEu1DkczbjynuVTk0Wbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107559256703-mgmcfqsasdkt3fne013540q6bqhhscai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107559256703:android:fd1d09b05f48a706c0754a",
+        "android_client_info": {
+          "package_name": "it.dadol.dadolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107559256703-mgmcfqsasdkt3fne013540q6bqhhscai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4plAi-eamTmLtEu1DkczbjynuVTk0Wbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107559256703-mgmcfqsasdkt3fne013540q6bqhhscai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
